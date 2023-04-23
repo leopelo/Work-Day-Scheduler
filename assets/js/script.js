@@ -31,7 +31,7 @@ function handleSaveClick(event){
     eventsData["hour" + hour] = value;
 
     //store in local storage
-    localStorage.setItem("calendarEvent", JSON.stringify(eventsData));
+    localStorage.setItem("calendarEvents", JSON.stringify(eventsData));
     //sotre tnis hours data in local storage
     
 }
@@ -54,7 +54,17 @@ function loadStoredData(){
             hour17: "",
         }
     }else if (eventsData !== null){
-        $("textarea").innerHTML = eventsData.value;
+        
+        $("#text1").innerHTML = eventsData.hour9;
+        $("#text2").innerHTML = eventsData.hour10;
+        $("#text3").innerHTML = eventsData.hour11;
+        $("#text4").innerHTML = eventsData.hour12;
+        $("#text5").innerHTML = eventsData.hour13;
+        $("#text6").innerHTML = eventsData.hour14;
+        $("#text7").innerHTML = eventsData.hour15;
+        $("#text8").innerHTML = eventsData.hour16;
+        $("#text9").innerHTML = eventsData.hour17;
+        
     }else{
         return;
     }
