@@ -54,7 +54,7 @@ function loadStoredData(){
             hour17: "",
         }
     }else if (eventsData !== null){
-        document.querySelectorAll("textarea").innerHTML = eventsData.value;
+        $("textarea").innerHTML = eventsData.value;
     }else{
         return;
     }
