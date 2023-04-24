@@ -9,7 +9,7 @@ N/A
 ## Usage
 
 Here is the layout of the website:
-![Screenshot 2023-04-08 192705](https://user-images.githubusercontent.com/127148387/230746692-11a6c1de-2361-405c-953e-e3f9e1991b85.png)
+![Screenshot 2023-04-23 200542](https://user-images.githubusercontent.com/127148387/233874059-fa4f33e6-07c3-4717-bc7d-1b2739d2b349.png)
 
 Together with a link to access it: https://leopelo.github.io/Password-Generator/
 
